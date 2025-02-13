@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-fill: #3a4663;
+        --color-display: #181F33;
+        --color-body: #242d44;
+        --color-button-numpad: #EAE3DC;
+        --color-button-command: #647198;
+        --color-accent: #D03F2F;
+        --color-accent-hover: #F96B5B;
+        --color-button-numpad-hover: #FFFFFE;
+        --color-button-command-hover: #A2B2E1;
+        --color-text-numpad: #434A59;
+        --color-text-command: #FFFFFF;
+        --color-text-base: #FFFFFF;
+        --color-text-eq: #FFFFFF;
+        --color-button-numpad-shadow: #b3a497;
+        --color-button-command-shadow: #414e73;
+        --color-accent-shadow: #93261a;
+    }
+    .ice-cream {
+        --color-fill: #E6E6E6;
+        --color-display: #EEEEEE;
+        --color-body: #D2CDCD;
+        --color-button-numpad: #E5E4E1;
+        --color-button-command: #378187;
+        --color-accent: #C85402;
+        --color-accent-hover: #FF8A38;
+        --color-button-numpad-hover: #FFFFFF;
+        --color-button-command-hover: #62B5BC;
+        --color-text-numpad: #36362C;
+        --color-text-command: #FFFFFF;
+        --color-text-base: #36362C; 
+        --color-text-eq: #FFFFFF;
+        --color-button-numpad-shadow: #a79e91;
+        --color-button-command-shadow: #1b6066;
+        --color-accent-shadow: #873901;
+    }
+    .neon-purple {
+        --color-fill: #17062A;
+        --color-display: #1E0936;
+        --color-body: #1E0936;
+        --color-button-numpad: #331C4D;
+        --color-button-command: #56077C;
+        --color-accent: #00DED0;
+        --color-accent-hover: #93FFF8;
+        --color-button-numpad-hover: #6C34AC;
+        --color-button-command-hover: #8631AF;
+        --color-text-numpad: #FFE53D;
+        --color-text-command: #FFFFFF;
+        --color-text-base: #FFE53D;
+        --color-text-eq: #1A2327;
+        --color-button-numpad-shadow: #881c9e;
+        --color-button-command-shadow: #be15f4;
+        --color-accent-shadow: #6cf9f0; 
+    }
+}
